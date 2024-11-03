@@ -1,11 +1,11 @@
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
-node_modules
+/source_code/node_modules
+/source_code/.pnp
+/source_code/.pnp.js
+/source_code/node_modules
 
 
 # local env files
-.env*.local
-.env
+/source_code/.env*.local
+/source_code/.env
