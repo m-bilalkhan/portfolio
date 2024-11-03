@@ -1,6 +1,6 @@
-FROM node:10 AS ui-build
+FROM node:18.17.0 AS ui-build
 WORKDIR /usr/src/app
-COPY source_code/ ./source_code/
+COPY ./source_code/ ./source_code/
 RUN cd source_code && npm install && npm run build
 
 # Stage 2: Serve the app with Nginx
