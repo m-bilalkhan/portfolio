@@ -1,17 +1,16 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Muhammad Bilal Khan",
+  title: "AWS Cloud Developer | Software Developer",
+  description: "Portfolio website of M.Bilal Khan",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "bilalkhan192003@gmail.com",
+    linkedin: "https://linkedin.com/in/mbilalkhan19",
+    // twitter: "https://x.com/rfitzio",
+    github: "https://github.com/m-bilalkhan",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: "I’m a cloud enthusiast who loves solving problems and building smart systems. I work hands-on with AWS and Terraform, turning infrastructure into clean, automated workflows. Always learning, always improving — and always aiming to build things the right way",
+  skills: ["AWS", "Docker", "Terraform", "Linux", "CI/CD", "Ansible", "Javascript", "Node.js", "Python"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -37,56 +36,44 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Meshtech Solutions",
+      title: "Software Developer",
+      dateRange: "Jan 2023 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Collaborated on a complex logistics project, successfully delivering and deploying it to production.",
+        "Implemented centralized logging with Elasticsearch, improving monitoring and debugging efficiency.",
+        "Enhanced testing tools, reducing the overall testing process time by 25%.",
+        "Optimized Angular components, cutting loading time by 50%."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Meshtech Solutions",
+      title: "Junior Web Developer",
+      dateRange: "Sept 2021 - Dec 2022",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Developed a responsive e-commerce web application with Stripe integration and an admin panel for product management and order processing using CodeIgniter.",
+        "Contributed to the development and maintenance of an ERP system, enhancing internal business operations.",
       ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
+      school: "Federal Urdu University Of Arts, Science & Technology",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2023 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Dean's List all semesters"
       ],
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    // {
+    //   school: "Online Platform",
+    //   degree: "Full Stack Development Certificate",
+    //   dateRange: "2019",
+    //   achievements: [
+    //     "Completed 500+ hours of coursework",
+    //     "Built 10+ portfolio projects",
+    //     "Specialized in React and Node.js",
+    //   ],
+    // },
   ],
 };
