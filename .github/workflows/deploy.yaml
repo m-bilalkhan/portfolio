@@ -54,16 +54,11 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy to private S3 bucket
-        uses: aws-actions/s3-sync@v2
-        with:
-          source: dist
-          destination: ${{ secrets.AWS_S3_BUCKET }}
-          region: ${{ secrets.AWS_REGION }}
-          delete: true
-          flags: --acl private  # ensures uploaded files are not public
+        run: |
+          aws s3 sync ./dist/ s3://${{ env.AWS_S3_BUCKET }}/ --delete
 
       - name: Invalidate CloudFront cache
-        uses: aws-actions/aws-cloudfront-invalidate@v2
-        with:
-          distribution-id: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
-          paths: "/*"
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.AWS_CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
