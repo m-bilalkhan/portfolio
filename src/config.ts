@@ -13,26 +13,17 @@ export const siteConfig = {
   skills: ["AWS", "Docker", "Terraform", "Linux", "CI/CD", "Ansible", "Javascript", "Node.js", "Python"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Visitor Log System – Personal Cloud Project",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Designed a modern, mobile-friendly visitor log web application enabling users to sign in and view visitor statistics in real time.", 
+        "Built CI/CD pipelines using GitHub Actions for automated building, and deployment workflows.",
+        "Dockerized the application and pushed backend images to Amazon ECR for environment consistency.",
+        "Created Golden AMIs using HashiCorp Packer for secure, reproducible infrastructure images.",
+        "Provisioned complete AWS infrastructure using Terraform with modular design covering networking, compute, RDS, IAM, Auto Scaling, and load balancing.",
+        "Applied environment-based configurations and automated deployments through Terraform CI/CD pipelines."
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+      skills: ["Terraform", "Docker", "AWS", "Packer", "Linux", "CI/CD"],
+    }
   ],
   experience: [
     {
