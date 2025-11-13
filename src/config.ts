@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Muhammad Bilal Khan",
   title: "AWS Cloud Developer | Software Developer",
   description: "Portfolio website of M.Bilal Khan",
-  accentColor: "#1d4ed8",
+  accentColor: "#41b7d4ff",
   social: {
     email: "bilalkhan192003@gmail.com",
     linkedin: "https://linkedin.com/in/mbilalkhan19",
