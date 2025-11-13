@@ -14,14 +14,15 @@ export const siteConfig = {
   projects: [
     {
       name: "Visitor Log System – Personal Cloud Project",
-      description:
+      description: [
         "Designed a modern, mobile-friendly visitor log web application enabling users to sign in and view visitor statistics in real time.", 
         "Built CI/CD pipelines using GitHub Actions for automated building, and deployment workflows.",
         "Dockerized the application and pushed backend images to Amazon ECR for environment consistency.",
         "Created Golden AMIs using HashiCorp Packer for secure, reproducible infrastructure images.",
         "Provisioned complete AWS infrastructure using Terraform with modular design covering networking, compute, RDS, IAM, Auto Scaling, and load balancing.",
         "Applied environment-based configurations and automated deployments through Terraform CI/CD pipelines."
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      ],
+      link: "https://github.com/m-bilalkhan/visitor-log-system/tree/development_server",
       skills: ["Terraform", "Docker", "AWS", "Packer", "Linux", "CI/CD"],
     }
   ],
@@ -55,7 +56,7 @@ export const siteConfig = {
       achievements: [
         "Dean's List all semesters"
       ],
-    },
+    }
     // {
     //   school: "Online Platform",
     //   degree: "Full Stack Development Certificate",
