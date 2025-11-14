@@ -14,7 +14,7 @@ export const siteConfig = {
   projects: [
     {
       name: "Visitor Log System – Personal Cloud Project",
-      description: [
+      bullets: [
         "Designed a modern, mobile-friendly visitor log web application enabling users to sign in and view visitor statistics in real time.", 
         "Built CI/CD pipelines using GitHub Actions for automated building, and deployment workflows.",
         "Dockerized the application and pushed backend images to Amazon ECR for environment consistency.",
