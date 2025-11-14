@@ -68,4 +68,26 @@ export const siteConfig = {
     //   ],
     // },
   ],
+  certifications: [
+    {
+      name: "AWS Educate Introduction to Cloud 101",
+      img: "/public/aws-educate-introduction-to-cloud-101-training-badg.png",
+      link: "https://www.credly.com/badges/e06a4121-c382-43a2-a0db-0585a6b9ddb3/public_url"
+    },
+    {
+      name: "AWS Educate Getting Started with Storage",
+      img: "/public/aws-educate-getting-started-with-storage-training-b.png",
+      link: "https://www.credly.com/badges/6d4e6880-c992-48cd-8029-6e4c7a1b9084/public_url"
+    },
+    {
+      name: "AWS Educate Getting Started with Compute",
+      img: "/public/aws-educate-getting-started-with-compute-training-b.png",
+      link: "https://www.credly.com/badges/e00d5511-1267-43dd-812f-87fb9e2c6d2c/public_url"
+    },
+    {
+      name: "AWS Cloud Quest: Cloud Practitioner",
+      img: "/public/aws-cloud-quest-cloud-practitioner-training-badge.png",
+      link: "https://www.credly.com/badges/7cabe9e3-86b8-4a4c-9595-7390bbc140c5/public_url"
+    }
+  ]
 };
