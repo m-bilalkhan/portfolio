@@ -85,6 +85,11 @@ export const siteConfig = {
       link: "https://www.credly.com/badges/e00d5511-1267-43dd-812f-87fb9e2c6d2c/public_url"
     },
     {
+      name: "AWS Educate Getting Started with Networking",
+      img: "/aws-educate-getting-started-with-networking-trainin.png",
+      link: "https://www.credly.com/badges/26092204-57ca-4625-8cf4-af81acb7eee2/public_url"
+    },
+    {
       name: "AWS Cloud Quest: Cloud Practitioner",
       img: "/aws-cloud-quest-cloud-practitioner-training-badge.png",
       link: "https://www.credly.com/badges/7cabe9e3-86b8-4a4c-9595-7390bbc140c5/public_url"

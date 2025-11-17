@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.3",
     "astro-splide": "^2.0.1",

@@ -1,7 +1,7 @@
 ---
 import { siteConfig } from "../config";
 import "@splidejs/splide/css"
-import { Splide, SplideSlide } from 'astro-splide';
+import { SplideExtension, SplideSlide } from 'astro-splide';
 
 const certs = siteConfig.certifications || [];
 const hasCerts = certs.length > 0;
@@ -23,7 +23,7 @@ const hasCerts = certs.length > 0;
 
     <!-- Carousel -->
     <div class="mt-6">
-    <Splide
+    <SplideExtension
       class='not-content'
       options={ 
         {
@@ -40,10 +40,13 @@ const hasCerts = certs.length > 0;
           },
         },
         type: 'loop',
+        drag   : 'free',
+        focus  : 'center',
         gap: "1rem",
-        interval: 2500,
-        autoplay: true,
         pauseOnHover: true,
+        autoScroll: {
+          speed: 1,
+        },
         height: "20rem",
         hasTrack: false
       } }
@@ -69,8 +72,14 @@ const hasCerts = certs.length > 0;
           </a>
         </SplideSlide>
       ))}
-    </Splide>
+    </SplideExtension>
     </div>
   </div>
 </section>
 )}
+
+<script>
+  import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+  import { initSplideExtension } from "astro-splide/js/splideExtensionUtils"
+  initSplideExtension({AutoScroll})
+</script>
