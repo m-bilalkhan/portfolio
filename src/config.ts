@@ -90,6 +90,11 @@ export const siteConfig = {
       link: "https://www.credly.com/badges/26092204-57ca-4625-8cf4-af81acb7eee2/public_url"
     },
     {
+      name: "AWS Educate Getting Started with Databases",
+      img: "/aws-educate-getting-started-with-databases-training.png",
+      link: "https://www.credly.com/badges/5dad1342-93bc-4f4a-a71a-86b22f39dcc8/public_url"
+    },
+    {
       name: "AWS Cloud Quest: Cloud Practitioner",
       img: "/aws-cloud-quest-cloud-practitioner-training-badge.png",
       link: "https://www.credly.com/badges/7cabe9e3-86b8-4a4c-9595-7390bbc140c5/public_url"
