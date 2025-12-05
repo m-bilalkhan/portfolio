@@ -13,6 +13,16 @@ export const siteConfig = {
   skills: ["AWS", "Docker", "Terraform", "Linux", "CI/CD", "Ansible", "Javascript", "Node.js", "Python"],
   projects: [
     {
+      name: "Cloud Fun Facts Generator – Serverless, API-Driven, AI Integration Project",
+      bullets: [
+        "Scalable serverless first architecture, API driven communication, database-backed data storage, and Generative AI integration for added engagement.", 
+        "Built CI/CD pipelines using GitHub Actions for automated building, and deployment workflows.",
+        "Services Used: Route53, CloudFront, WAF, ApiGateway, Lambda, Dynamodb, Bedrock, IAM, S3."
+      ],
+      link: "https://github.com/m-bilalkhan/cloud-fun-facts-generator",
+      skills: ["Terraform", "AWS", "Python", "GitHub CI/CD"],
+    },
+    {
       name: "Visitor Log System – Personal Cloud Project",
       bullets: [
         "Designed a modern, mobile-friendly visitor log web application enabling users to sign in and view visitor statistics in real time.", 

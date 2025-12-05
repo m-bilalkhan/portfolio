@@ -12,9 +12,16 @@ const hasCerts = certs.length > 0;
   <div>
 
     <!-- Section Heading -->
-    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-      Certifications
-    </h2>
+    <div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-gray-900">
+        🏆 Certifications
+      </h2>
+    </div>
+
+    <!-- Fun subtitle -->
+    <p class="mt-4 text-gray-600 text-lg italic" id="subtitle">
+      Click on any cert to celebrate! 🎉
+    </p>
 
     <div
       class="w-[75px] h-[5px] mt-2 rounded-full"
@@ -82,4 +89,40 @@ const hasCerts = certs.length > 0;
   import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
   import { initSplideExtension } from "astro-splide/js/splideExtensionUtils"
   initSplideExtension({AutoScroll})
+  // Fun messages for achievements
+
+  const funSubtitles = [
+    "Click to see ✨",
+    "These aren't just badges, they're trophies! 🏆",
+    "Gotta catch 'em all! 🎯",
+  ];
+
+  // Rotate subtitle
+  function rotateSubtitle() {
+    const subtitle = document.getElementById('subtitle');
+    if (!subtitle) return;
+    
+    let index = 0;
+    setInterval(() => {
+      subtitle.style.opacity = '0';
+      setTimeout(() => {
+        index = (index + 1) % funSubtitles.length;
+        subtitle.textContent = funSubtitles[index];
+        subtitle.style.opacity = '1';
+      }, 300);
+    }, 4000);
+  }
+
+  // Initialize everything when DOM is ready
+  document.addEventListener('DOMContentLoaded', () => {    
+    rotateSubtitle();
+  });
 </script>
+
+
+
+<style is:global>
+  #subtitle {
+    transition: opacity 0.3s ease-in-out;
+  }
+</style>
