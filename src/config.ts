@@ -105,6 +105,21 @@ export const siteConfig = {
       link: "https://www.credly.com/badges/5dad1342-93bc-4f4a-a71a-86b22f39dcc8/public_url"
     },
     {
+      name: "AWS Educate Getting Started with Cloud Ops",
+      img: "/aws-educate-getting-started-with-cloud-ops-training.png",
+      link: "https://www.credly.com/badges/c1b0b8b3-a3c5-4731-b457-fc5e97b4df97/public_url"
+    },
+    {
+      name: "AWS Educate Getting Started with Security",
+      img: "/aws-educate-getting-started-with-security-training-.png",
+      link: "https://www.credly.com/badges/2c84f5c7-1735-4e4e-aa5b-7b967f8036bc/public_url"
+    },
+    {
+      name: "AWS Educate Getting Started with Serverless",
+      img: "/aws-educate-getting-started-with-serverless-trainin.png",
+      link: "https://www.credly.com/badges/334af81d-06cc-4063-a70c-b1bdde33f6b9/public_url"
+    },
+    {
       name: "AWS Cloud Quest: Cloud Practitioner",
       img: "/aws-cloud-quest-cloud-practitioner-training-badge.png",
       link: "https://www.credly.com/badges/7cabe9e3-86b8-4a4c-9595-7390bbc140c5/public_url"
