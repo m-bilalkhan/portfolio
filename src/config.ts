@@ -13,7 +13,17 @@ export const siteConfig = {
   skills: ["AWS", "Docker", "Terraform", "Linux", "CI/CD", "Ansible", "Javascript", "Node.js", "Python"],
   projects: [
     {
-      name: "Cloud Fun Facts Generator – Serverless, API-Driven, AI Integration Project",
+      name: "Event Announcement Platform – Serverless Event Management with Real-Time Notifications",
+      bullets: [
+        "Event-driven serverless architecture enabling users to create, view, and subscribe to announcements with automated email notifications through SNS topic subscriptions.",
+        "Implemented RESTful API endpoints with Lambda functions handling event registration, subscriber management, and JSON-based data persistence in S3.",
+        "Services Used: S3, API Gateway, Lambda, SNS, IAM, Static Website Hosting."
+      ],
+      link: "https://github.com/m-bilalkhan/event-announcement-system",
+      skills: ["Terraform", "AWS", "Python", "REST APIs"],
+    },
+    {
+      name: "Cloud Fun Facts Generator – Serverless, API-Driven, AI Integration Project", 
       bullets: [
         "Scalable serverless first architecture, API driven communication, database-backed data storage, and Generative AI integration for added engagement.", 
         "Built CI/CD pipelines using GitHub Actions for automated building, and deployment workflows.",
@@ -79,6 +89,11 @@ export const siteConfig = {
     // },
   ],
   certifications: [
+    {
+      name: "AWS Certified Cloud Practitioner",
+      img: "/aws-certified-cloud-practitioner.png",
+      link: "https://www.credly.com/badges/9dd44889-9ce4-45a7-9454-7e02b23b0f6e/public_url"
+    },
     {
       name: "AWS Educate Introduction to Cloud 101",
       img: "/aws-educate-introduction-to-cloud-101-training-badg.png",
