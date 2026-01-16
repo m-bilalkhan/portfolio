@@ -21,6 +21,7 @@ export const siteConfig = {
       ],
       link: "https://github.com/m-bilalkhan/event-announcement-system",
       skills: ["Terraform", "AWS", "Python", "REST APIs"],
+      image: "/public/event-announcement-platform.webp",
     },
     {
       name: "Cloud Fun Facts Generator – Serverless, API-Driven, AI Integration Project", 
@@ -31,6 +32,7 @@ export const siteConfig = {
       ],
       link: "https://github.com/m-bilalkhan/cloud-fun-facts-generator",
       skills: ["Terraform", "AWS", "Python", "GitHub CI/CD"],
+      image: "/public/cloud-fun-facts-generator.gif",
     },
     {
       name: "Visitor Log System – Personal Cloud Project",
@@ -44,6 +46,7 @@ export const siteConfig = {
       ],
       link: "https://github.com/m-bilalkhan/visitor-log-system/tree/development_server",
       skills: ["Terraform", "Docker", "AWS", "Packer", "Linux", "CI/CD"],
+      image: "/public/visitor-log-system.gif",
     }
   ],
   experience: [
